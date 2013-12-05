@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F9CEB6532BE45C08E644B73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB14330A768C462A95AED746 /* libPods.a */; };
 		4E221E261845239700CEEC60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E221E251845239700CEEC60 /* UIKit.framework */; };
 		4E221E281845239700CEEC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E221E271845239700CEEC60 /* Foundation.framework */; };
 		4E221E2A1845239700CEEC60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E221E291845239700CEEC60 /* CoreGraphics.framework */; };
@@ -21,9 +22,13 @@
 		4E221E441845239700CEEC60 /* CDNMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E431845239700CEEC60 /* CDNMasterViewController.m */; };
 		4E221E471845239700CEEC60 /* CDNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E461845239700CEEC60 /* CDNDetailViewController.m */; };
 		4E221E4A1845239700CEEC60 /* CDNMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E221E481845239700CEEC60 /* CDNMasterViewController_iPhone.xib */; };
-		4E221E4D1845239700CEEC60 /* CDNMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E221E4B1845239700CEEC60 /* CDNMasterViewController_iPad.xib */; };
 		4E221E501845239700CEEC60 /* CDNDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E221E4E1845239700CEEC60 /* CDNDetailViewController_iPhone.xib */; };
-		4E221E531845239700CEEC60 /* CDNDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E221E511845239700CEEC60 /* CDNDetailViewController_iPad.xib */; };
+		4E241064184E4CD40070A0DC /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E241063184E4CD40070A0DC /* Event.m */; };
+		4E241067184E4CD40070A0DC /* Festival.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E241066184E4CD40070A0DC /* Festival.m */; };
+		4ECB27BC184560380046B971 /* ModelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB27B818455D0F0046B971 /* ModelDelegate.m */; };
+		4ECB27BD184560380046B971 /* ModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB27BA18455D0F0046B971 /* ModelFactory.m */; };
+		4ECB27C0184563660046B971 /* Festival+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB27BF184563660046B971 /* Festival+Create.m */; };
+		4ECB27C3184563FF0046B971 /* Event+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB27C2184563FF0046B971 /* Event+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +52,22 @@
 		4E221E451845239700CEEC60 /* CDNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNDetailViewController.h; sourceTree = "<group>"; };
 		4E221E461845239700CEEC60 /* CDNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNDetailViewController.m; sourceTree = "<group>"; };
 		4E221E491845239700CEEC60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDNMasterViewController_iPhone.xib; sourceTree = "<group>"; };
-		4E221E4C1845239700CEEC60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDNMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		4E221E4F1845239700CEEC60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDNDetailViewController_iPhone.xib; sourceTree = "<group>"; };
-		4E221E521845239700CEEC60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDNDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		4E241062184E4CD40070A0DC /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		4E241063184E4CD40070A0DC /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		4E241065184E4CD40070A0DC /* Festival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Festival.h; sourceTree = "<group>"; };
+		4E241066184E4CD40070A0DC /* Festival.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Festival.m; sourceTree = "<group>"; };
+		4ECB27B718455D0F0046B971 /* ModelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDelegate.h; sourceTree = "<group>"; };
+		4ECB27B818455D0F0046B971 /* ModelDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDelegate.m; sourceTree = "<group>"; };
+		4ECB27B918455D0F0046B971 /* ModelFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelFactory.h; sourceTree = "<group>"; };
+		4ECB27BA18455D0F0046B971 /* ModelFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelFactory.m; sourceTree = "<group>"; };
+		4ECB27BB18455D760046B971 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		4ECB27BE184563660046B971 /* Festival+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Festival+Create.h"; sourceTree = "<group>"; };
+		4ECB27BF184563660046B971 /* Festival+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Festival+Create.m"; sourceTree = "<group>"; };
+		4ECB27C1184563FF0046B971 /* Event+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Event+Create.h"; sourceTree = "<group>"; };
+		4ECB27C2184563FF0046B971 /* Event+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Event+Create.m"; sourceTree = "<group>"; };
+		98A5F3D0E5C446E3BB3D7FFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FB14330A768C462A95AED746 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,7 @@
 				4E221E281845239700CEEC60 /* Foundation.framework in Frameworks */,
 				4E221E2A1845239700CEEC60 /* CoreGraphics.framework in Frameworks */,
 				4E221E2C1845239700CEEC60 /* CoreData.framework in Frameworks */,
+				2F9CEB6532BE45C08E644B73 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +92,7 @@
 				4E221E2D1845239700CEEC60 /* CoreDataNightMare */,
 				4E221E241845239700CEEC60 /* Frameworks */,
 				4E221E231845239700CEEC60 /* Products */,
+				98A5F3D0E5C446E3BB3D7FFA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +111,7 @@
 				4E221E271845239700CEEC60 /* Foundation.framework */,
 				4E221E291845239700CEEC60 /* CoreGraphics.framework */,
 				4E221E2B1845239700CEEC60 /* CoreData.framework */,
+				FB14330A768C462A95AED746 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +119,10 @@
 		4E221E2D1845239700CEEC60 /* CoreDataNightMare */ = {
 			isa = PBXGroup;
 			children = (
+				4ECB27B718455D0F0046B971 /* ModelDelegate.h */,
+				4ECB27B818455D0F0046B971 /* ModelDelegate.m */,
+				4ECB27B918455D0F0046B971 /* ModelFactory.h */,
+				4ECB27BA18455D0F0046B971 /* ModelFactory.m */,
 				4E221E361845239700CEEC60 /* CDNAppDelegate.h */,
 				4E221E371845239700CEEC60 /* CDNAppDelegate.m */,
 				4E221E421845239700CEEC60 /* CDNMasterViewController.h */,
@@ -105,10 +130,17 @@
 				4E221E451845239700CEEC60 /* CDNDetailViewController.h */,
 				4E221E461845239700CEEC60 /* CDNDetailViewController.m */,
 				4E221E481845239700CEEC60 /* CDNMasterViewController_iPhone.xib */,
-				4E221E4B1845239700CEEC60 /* CDNMasterViewController_iPad.xib */,
 				4E221E4E1845239700CEEC60 /* CDNDetailViewController_iPhone.xib */,
-				4E221E511845239700CEEC60 /* CDNDetailViewController_iPad.xib */,
+				4E241062184E4CD40070A0DC /* Event.h */,
+				4E241065184E4CD40070A0DC /* Festival.h */,
+				4E241066184E4CD40070A0DC /* Festival.m */,
+				4E241063184E4CD40070A0DC /* Event.m */,
 				4E221E3F1845239700CEEC60 /* CoreDataNightMare.xcdatamodeld */,
+				4ECB27BE184563660046B971 /* Festival+Create.h */,
+				4ECB27BF184563660046B971 /* Festival+Create.m */,
+				4ECB27C1184563FF0046B971 /* Event+Create.h */,
+				4ECB27C2184563FF0046B971 /* Event+Create.m */,
+				4ECB27BB18455D760046B971 /* SynthesizeSingleton.h */,
 				4E221E2E1845239700CEEC60 /* Supporting Files */,
 			);
 			path = CoreDataNightMare;
@@ -135,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E221E561845239700CEEC60 /* Build configuration list for PBXNativeTarget "CoreDataNightMare" */;
 			buildPhases = (
+				41997B2C28584DD7879441DE /* Check Pods Manifest.lock */,
 				4E221E1E1845239700CEEC60 /* Sources */,
 				4E221E1F1845239700CEEC60 /* Frameworks */,
 				4E221E201845239700CEEC60 /* Resources */,
+				29A2A1BE72A94E698CEB88B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +198,13 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
+				fr,
+				it,
+				ko,
+				pt,
+				English,
 			);
 			mainGroup = 4E221E191845239700CEEC60;
 			productRefGroup = 4E221E231845239700CEEC60 /* Products */;
@@ -185,24 +226,61 @@
 				4E221E3C1845239700CEEC60 /* Default@2x.png in Resources */,
 				4E221E3E1845239700CEEC60 /* Default-568h@2x.png in Resources */,
 				4E221E4A1845239700CEEC60 /* CDNMasterViewController_iPhone.xib in Resources */,
-				4E221E4D1845239700CEEC60 /* CDNMasterViewController_iPad.xib in Resources */,
 				4E221E501845239700CEEC60 /* CDNDetailViewController_iPhone.xib in Resources */,
-				4E221E531845239700CEEC60 /* CDNDetailViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29A2A1BE72A94E698CEB88B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41997B2C28584DD7879441DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E221E1E1845239700CEEC60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECB27BC184560380046B971 /* ModelDelegate.m in Sources */,
+				4ECB27BD184560380046B971 /* ModelFactory.m in Sources */,
 				4E221E341845239700CEEC60 /* main.m in Sources */,
 				4E221E381845239700CEEC60 /* CDNAppDelegate.m in Sources */,
 				4E221E411845239700CEEC60 /* CoreDataNightMare.xcdatamodeld in Sources */,
 				4E221E441845239700CEEC60 /* CDNMasterViewController.m in Sources */,
 				4E221E471845239700CEEC60 /* CDNDetailViewController.m in Sources */,
+				4ECB27C0184563660046B971 /* Festival+Create.m in Sources */,
+				4ECB27C3184563FF0046B971 /* Event+Create.m in Sources */,
+				4E241064184E4CD40070A0DC /* Event.m in Sources */,
+				4E241067184E4CD40070A0DC /* Festival.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,28 +303,12 @@
 			name = CDNMasterViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		4E221E4B1845239700CEEC60 /* CDNMasterViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E221E4C1845239700CEEC60 /* en */,
-			);
-			name = CDNMasterViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		4E221E4E1845239700CEEC60 /* CDNDetailViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E221E4F1845239700CEEC60 /* en */,
 			);
 			name = CDNDetailViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4E221E511845239700CEEC60 /* CDNDetailViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E221E521845239700CEEC60 /* en */,
-			);
-			name = CDNDetailViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,22 +374,54 @@
 		};
 		4E221E571845239700CEEC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A5F3D0E5C446E3BB3D7FFA /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataNightMare/CoreDataNightMare-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataNightMare/CoreDataNightMare-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/imiwa/120 External/iSpeech\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/GoogleAnalytics-iOS-SDK\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/TestFlightSDK\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-databases/imiwa-databases-test/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-filebuilder/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-mecab/MeCab/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		4E221E581845239700CEEC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A5F3D0E5C446E3BB3D7FFA /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataNightMare/CoreDataNightMare-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataNightMare/CoreDataNightMare-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/imiwa/120 External/iSpeech\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/GoogleAnalytics-iOS-SDK\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-application/Pods/TestFlightSDK\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-databases/imiwa-databases-test/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-filebuilder/Pods/imiwa-mecab/MeCab/lib\"",
+					"\"$(SRCROOT)/../../../Dropbox/Development/imiwa-mecab/MeCab/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -351,6 +445,7 @@
 				4E221E581845239700CEEC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
