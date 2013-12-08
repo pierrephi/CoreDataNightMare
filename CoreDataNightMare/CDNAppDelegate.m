@@ -124,7 +124,7 @@
 
         [ModelFactory.sharedModelFactory.mainManagedObjectContext performBlockAndWait:^{
 
-            [ModelFactory.sharedModelFactory.mainManagedObjectContext deleteObject:woodstock]; 
+            [ModelFactory.sharedModelFactory.mainManagedObjectContext deleteObject:[ModelFactory.sharedModelFactory.mainManagedObjectContext objectWithID:obid]];
             [ModelFactory.sharedModelFactory writeToDisk];
         }];
     });
